@@ -6,7 +6,7 @@ Resource    ../../locators/Health_Records_locator.robot
 *** Keywords ***
 
 Click Login Button
-    [Documentation]    Header ka login button click karo
+    [Documentation]    Header  login button click 
     Wait Until Element Is Visible    ${login_btn}    timeout=15s
     Click Element                    ${login_btn}
     Log    Login modal opens
